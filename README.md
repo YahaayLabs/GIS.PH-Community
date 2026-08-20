@@ -1,55 +1,59 @@
 # GIS.PH Community
 
-Public home for **GIS.PH** developers and map builders: announcements, Q&A, feature ideas, and show-and-tell.
-
-**Discussions → [github.com/YahaayLabs/GIS.PH-Community/discussions](https://github.com/YahaayLabs/GIS.PH-Community/discussions)**
+Public home for **GIS.PH** developers and map builders.
 
 | | |
 | --- | --- |
+| **Discussions** | [Q&A, Ideas, Announcements](https://github.com/YahaayLabs/GIS.PH-Community/discussions) |
+| **Report a bug** | [New issue](https://github.com/YahaayLabs/GIS.PH-Community/issues/new/choose) |
 | Product | [gis.ph](https://gis.ph) |
 | Docs | [docs.gis.ph](https://docs.gis.ph) |
 | Dashboard | [dashboard.gis.ph](https://dashboard.gis.ph) |
 | API | [api.gis.ph](https://api.gis.ph) |
 
-## Where to post
+## Report a bug (API or dashboard)
+
+`api.gis.ph` and `dashboard.gis.ph` are private product repos. **File bugs here** so any invited user can report without repo access:
+
+→ **[Open a bug report](https://github.com/YahaayLabs/GIS.PH-Community/issues/new/choose)**
+
+| Template | Use when |
+| :--- | :--- |
+| **API bug (api.gis.ph)** | Wrong status/body, auth, search, GeoJSON, rate limits, keys |
+| **Dashboard bug (dashboard.gis.ph)** | UI/flows on dashboard.gis.ph (sign-in, keys, Your Data, maps, admin) |
+| **SDK / CLI / MCP bug** | Client libraries (or file on the public package repo if you know which) |
+
+**Do not paste API keys, Clerk tokens, or cookies.** Redact secrets from logs.
+
+Unsure it is a bug? Ask in [Q&A](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/q-a) first.
+
+Account / invite / billing: [support@gis.ph](mailto:support@gis.ph).
+
+Maintainers triage Issues labeled `triage` and move work into the private product trackers as needed.
+
+## Discussions (not for confirmed bugs)
 
 | Category | Use for |
 | :--- | :--- |
-| [Announcements](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/announcements) | Releases, incidents, invite waves (maintainers) |
-| [Q&A](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/q-a) | How do I…? Auth, keys, datasets, SDK/CLI help |
-| [Ideas](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/ideas) | Feature requests and roadmap input |
-| [Show and tell](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/show-and-tell) | Apps, maps, integrations built on GIS.PH |
-| [General](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/general) | Intros and open conversation |
-| [Polls](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/polls) | Lightweight community votes |
-
-## Issues vs Discussions
-
-| Need | Where |
-| :--- | :--- |
-| Bug / confirmed defect | Issue on the product repo (e.g. [`api.gis.ph`](https://github.com/YahaayLabs/api.gis.ph/issues), [`dashboard.gis.ph`](https://github.com/YahaayLabs/dashboard.gis.ph/issues)) — private repos may require invite |
-| Question / how-to | **Q&A** here |
-| Feature idea | **Ideas** here — we promote to a tracked issue when we commit to build |
-| Status / outage / launch | **Announcements** |
-
-GitHub Discussions is the canonical community channel (not Discord). Decisions and announcements stay here so they remain searchable.
+| [Announcements](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/announcements) | Releases, incidents, invite waves |
+| [Q&A](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/q-a) | How-to / “is this expected?” |
+| [Ideas](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/ideas) | Feature requests |
+| [Show and tell](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/show-and-tell) | Apps and maps built on GIS.PH |
+| [General](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/general) | Intros |
 
 ## Guidelines
 
-1. Be respectful — Philippines mapping community, developers, and newcomers alike.
-2. Search before posting; link docs or error text when asking for help.
-3. Do not share API keys, Clerk secrets, or personal data.
-4. Product bugs with repro steps belong in Issues once confirmed — Discussions are fine for “is this expected?” first.
-5. Keep Ideas focused: problem → who it helps → rough proposal.
+1. Be respectful.
+2. Search Issues and Discussions before posting.
+3. Never share secrets.
+4. Confirmed product defects → **Issues** (templates above). Questions → **Q&A**.
 
 See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## Maintainer notes
 
-- This repo is **public** so invited beta users and open-source SDK consumers can participate without access to private app repos.
-- Private product work stays in `api.gis.ph`, `dashboard.gis.ph`, `gis.ph`, etc.
-- Prefer promoting high-signal Ideas into GitHub Issues when scheduling work.
-- Do **not** re-enable Organization Discussions for YahaayLabs with this repo as source — that redirects URLs to `/orgs/YahaayLabs/discussions` and loses GIS.PH branding.
+- This repo is **public** on purpose (private apps stay private).
+- Do **not** re-enable Organization Discussions with this repo as source (that redirects to `/orgs/YahaayLabs/discussions`).
+- Prefer promoting high-signal Ideas into tracked work when scheduling.
 
-## Welcome thread
-
-Say hello: [Welcome to GIS.PH Community!](https://github.com/YahaayLabs/GIS.PH-Community/discussions/1)
+Welcome: [Welcome to GIS.PH Community!](https://github.com/YahaayLabs/GIS.PH-Community/discussions/1)

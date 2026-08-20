@@ -1,0 +1,73 @@
+name: Dashboard bug (dashboard.gis.ph)
+description: Something wrong in the GIS.PH dashboard UI or flows
+title: "[dashboard] "
+labels: ["bug", "dashboard", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report a defect against **dashboard.gis.ph**. Do **not** paste API keys, session cookies, or Clerk tokens.
+        Unsure if it is a bug? Start a [Q&A Discussion](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/q-a) first.
+  - type: input
+    id: page
+    attributes:
+      label: Page / URL
+      description: Path you were on. Example — `/your-data`, `/api-keys`, `/accept-invitation`
+      placeholder: /home
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome / Edge
+        - Firefox
+        - Safari
+        - Mobile browser
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Production (https://dashboard.gis.ph)
+        - Local dev
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Error text, blank screen, wrong data, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did this happen?
+      description: Approximate date/time and timezone (optional).
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
+      description: Screenshots, console errors (no secrets), account email domain only if relevant.

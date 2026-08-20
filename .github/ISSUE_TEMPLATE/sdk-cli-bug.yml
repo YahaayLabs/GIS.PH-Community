@@ -1,0 +1,45 @@
+name: SDK / CLI / MCP bug
+description: Bug in a public GIS.PH client (SDK, CLI, or MCP)
+title: "[client] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prefer filing on the package repo when you can (`gis.ph-sdk-js`, `gis.ph-sdk-php`, `gis.ph-cli`, `mcp.gis.ph`).
+        Use this form if you are unsure which repo, or hit a client bug while using the API.
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - JavaScript / TypeScript SDK
+        - PHP / Laravel SDK
+        - gis.ph CLI
+        - MCP server
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package / version
+      placeholder: e.g. gis.ph-sdk@x.y.z
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps / minimal code
+    validations:
+      required: true

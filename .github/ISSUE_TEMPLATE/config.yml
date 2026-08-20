@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GIS.PH Community Discussions
+    url: https://github.com/YahaayLabs/GIS.PH-Community/discussions
+    about: Questions, ideas, and “is this expected?” — use Discussions first if you are unsure.
+  - name: Docs
+    url: https://docs.gis.ph
+    about: API guides, SDKs, CLI, and reference.
+  - name: Account / billing support
+    url: mailto:support@gis.ph
+    about: Access, invitations, and billing — email support@gis.ph.

@@ -2,7 +2,7 @@
 
 Public home for **GIS.PH** developers and map builders: announcements, Q&A, feature ideas, and show-and-tell.
 
-**Discussions → [github.com/YahaayLabs/community.gis.ph/discussions](https://github.com/YahaayLabs/community.gis.ph/discussions)**
+**Discussions → [github.com/YahaayLabs/GIS.PH-Community/discussions](https://github.com/YahaayLabs/GIS.PH-Community/discussions)**
 
 | | |
 | --- | --- |
@@ -15,12 +15,12 @@ Public home for **GIS.PH** developers and map builders: announcements, Q&A, feat
 
 | Category | Use for |
 | :--- | :--- |
-| [Announcements](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/announcements) | Releases, incidents, invite waves (maintainers) |
-| [Q&A](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/q-a) | How do I…? Auth, keys, datasets, SDK/CLI help |
-| [Ideas](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/ideas) | Feature requests and roadmap input |
-| [Show and tell](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/show-and-tell) | Apps, maps, integrations built on GIS.PH |
-| [General](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/general) | Intros and open conversation |
-| [Polls](https://github.com/YahaayLabs/community.gis.ph/discussions/categories/polls) | Lightweight community votes |
+| [Announcements](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/announcements) | Releases, incidents, invite waves (maintainers) |
+| [Q&A](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/q-a) | How do I…? Auth, keys, datasets, SDK/CLI help |
+| [Ideas](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/ideas) | Feature requests and roadmap input |
+| [Show and tell](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/show-and-tell) | Apps, maps, integrations built on GIS.PH |
+| [General](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/general) | Intros and open conversation |
+| [Polls](https://github.com/YahaayLabs/GIS.PH-Community/discussions/categories/polls) | Lightweight community votes |
 
 ## Issues vs Discussions
 
@@ -52,4 +52,4 @@ See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## Welcome thread
 
-Say hello: [Welcome to GIS.PH Community!](https://github.com/YahaayLabs/community.gis.ph/discussions/1)
+Say hello: [Welcome to GIS.PH Community!](https://github.com/YahaayLabs/GIS.PH-Community/discussions/1)
